@@ -29,3 +29,5 @@ Use your favorite watchface an add the variables
 * {tglucose]
 * {tdelta}
 * {tbgtime}
+
+or use my [watchface](https://getwatchmaker.com/watch/sBJsJUDb48)
