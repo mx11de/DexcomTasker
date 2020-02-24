@@ -1,0 +1,527 @@
+<TaskerData sr="" dvi="1" tv="5.9.2">
+	<Profile sr="prof12" ve="2">
+		<cdate>1582149874014</cdate>
+		<edate>1582553796776</edate>
+		<flags>8</flags>
+		<id>12</id>
+		<mid0>6</mid0>
+		<Time sr="con0">
+			<fh>0</fh>
+			<fm>0</fm>
+			<rep>2</rep>
+			<repval>5</repval>
+			<th>23</th>
+			<tm>59</tm>
+		</Time>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1582125589641</cdate>
+		<mdate>1582553816226</mdate>
+		<name>Basis</name>
+		<pids>12</pids>
+		<tids>6</tids>
+		<Img sr="icon" ve="2">
+			<nme>mw_action_home</nme>
+		</Img>
+	</Project>
+	<Task sr="task6">
+		<cdate>1582128630770</cdate>
+		<edate>1582553892293</edate>
+		<id>6</id>
+		<nme>QueryDexcom</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>565385068</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<AllFields>true</AllFields>
+					<AllFields-type>java.lang.Boolean</AllFields-type>
+					<BigImageNames>&lt;null&gt;</BigImageNames>
+					<BigImageNames-type>java.lang.String</BigImageNames-type>
+					<BigTextNames>&lt;null&gt;</BigTextNames>
+					<BigTextNames-type>java.lang.String</BigTextNames-type>
+					<HasMediaSession>false</HasMediaSession>
+					<HasMediaSession-type>java.lang.Boolean</HasMediaSession-type>
+					<HasReplyAction>false</HasReplyAction>
+					<HasReplyAction-type>java.lang.Boolean</HasReplyAction-type>
+					<ImageNames>&lt;null&gt;</ImageNames>
+					<ImageNames-type>java.lang.String</ImageNames-type>
+					<InterceptApps>&lt;StringArray sr=""&gt;&lt;_array_InterceptApps0&gt;com.dexcom.g6.region3.mgdl&lt;/_array_InterceptApps0&gt;&lt;/StringArray&gt;</InterceptApps>
+					<InterceptApps-type>[Ljava.lang.String;</InterceptApps-type>
+					<InterceptPersistent>2</InterceptPersistent>
+					<InterceptPersistent-type>java.lang.String</InterceptPersistent-type>
+					<InternalActionsBig>&lt;null&gt;</InternalActionsBig>
+					<InternalActionsBig-type>java.lang.String</InternalActionsBig-type>
+					<InternalActionsSmall>&lt;null&gt;</InternalActionsSmall>
+					<InternalActionsSmall-type>java.lang.String</InternalActionsSmall-type>
+					<QueryAnyMatch>&lt;null&gt;</QueryAnyMatch>
+					<QueryAnyMatch-type>java.lang.String</QueryAnyMatch-type>
+					<QueryAppName>&lt;null&gt;</QueryAppName>
+					<QueryAppName-type>java.lang.String</QueryAppName-type>
+					<QueryAppPackage>&lt;null&gt;</QueryAppPackage>
+					<QueryAppPackage-type>java.lang.String</QueryAppPackage-type>
+					<QueryText>&lt;null&gt;</QueryText>
+					<QueryText-type>java.lang.String</QueryText-type>
+					<QueryTitle>&lt;null&gt;</QueryTitle>
+					<QueryTitle-type>java.lang.String</QueryTitle-type>
+					<SnoozedNotifications>false</SnoozedNotifications>
+					<SnoozedNotifications-type>java.lang.Boolean</SnoozedNotifications-type>
+					<TextNames>&lt;null&gt;</TextNames>
+					<TextNames-type>java.lang.String</TextNames-type>
+					<UseRegex>false</UseRegex>
+					<UseRegex-type>java.lang.Boolean</UseRegex-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Persistency Type: Persistent Only
+Notification Apps: Dexcom G6
+Get All Fields : true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%anapp()
+01. App name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%anbackgroundimage()
+Background Image
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%anbigicon()
+04. Icon When Expanded
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%anbutton1action()
+13. Button Action 1
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%anbutton1icon()
+13. Button 1 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%anbutton1text()
+12. Button 1 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%anbutton2action()
+15. Button 2 Action
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%anbutton2icon()
+15. Button 2 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%anbutton2text()
+14. Button 2 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%anbutton3action()
+17. Button 3 Action
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%anbutton3icon()
+17. Button 3 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%anbutton3text()
+16. Button 3 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%anbutton4action()
+18. Button 4 Action
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%anbutton4icon()
+18. Button 4 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%anbutton4text()
+18. Button 4 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%anbutton5action()
+19. Button 5 Action
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%anbutton5icon()
+19. Button 5 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%anbutton5text()
+19. Button 5 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;%ancancelreason()
+Reason Cancelled Code
+Code of the reason the notification was cancelled&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;%ancancelreasontext()
+Reason Cancelled Text
+Reason the notification was cancelled&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;%ancategoryid()
+Category ID
+Notification's category ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;%ancategoryname()
+Category Name
+Notification's category Name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;%ancolor()
+Color
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;%andismissaction()
+23. Action On Dismiss Id
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;%anextrainfo()
+Extra Info
+Extra info that you can add to an AutoNotification notification when you create it. Empty for others.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;%anextras()
+All Extras
+All extras from the notification that are not already in one of the other variables in JSON format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;%angroup()
+Group
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;%anhasmediasession()
+Has Media Session
+All extras from the notification that are not already in one of the other variables in JSON format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;%anicon()
+04. Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES29&gt;%anid()
+Id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES29&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES30&gt;%animages()
+20. Images
+20. Images&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES30&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES31&gt;%animagesbig()
+21. Images When Expanded
+21. Images When Expanded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES31&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES32&gt;%aninfotext()
+10. Info Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES32&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES33&gt;%ankey()
+Key
+A unique instance key for this notification&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES33&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES34&gt;%annumber()
+Number
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES34&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES35&gt;%anpackage()
+Package Name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES35&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES36&gt;%anpeople()
+People
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES36&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES37&gt;%anpicture()
+05. Picture
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES37&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES38&gt;%anpriority()
+Priority
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES38&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES39&gt;%anprogress()
+Progress
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES39&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES40&gt;%anprogressindeterminate()
+Progress Indeterminate
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES40&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES41&gt;%anprogressmax()
+Progress Max
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES41&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES42&gt;%anreplyaction()
+20. Action Reply
+Use with AutoNotification Reply&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES42&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES43&gt;%anshowchronometer()
+Show Chronometer
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES43&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES44&gt;%ansortkey()
+Sort Key
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES44&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES45&gt;%anstatus()
+Cancelled Or Created
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES45&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES46&gt;%anstatusbaricon()
+07. Status Bar Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES46&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES47&gt;%anstatusbaricon()
+Status Bar Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES47&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES48&gt;%ansubtext()
+08. SubText
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES48&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES49&gt;%ansummary()
+Is Summary
+Will be set to &amp;lt;b&amp;gt;1&amp;lt;/b&amp;gt; if it's a summary and &amp;lt;b&amp;gt;will not be set&amp;lt;/b&amp;gt; otherwise.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES49&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES50&gt;%ansummarytext()
+09. Summary Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES50&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES51&gt;%antag()
+Tag
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES51&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES52&gt;%antext()
+03. Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES52&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES53&gt;%antextbig()
+03. Text When Expanded
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES53&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES54&gt;%antextlines()
+11. Text Lines
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES54&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES55&gt;%antexts()
+18. Texts
+18. Texts&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES55&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES56&gt;%antextsbig()
+19. Texts When Expanded
+19. Texts When Expanded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES56&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES57&gt;%anticker()
+03. Ticker Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES57&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES58&gt;%antitle()
+02. Title
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES58&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES59&gt;%antitlebig()
+02. Title When Expanded
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES59&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES60&gt;%antouchaction()
+22. Action On Touch Id
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES60&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES61&gt;%anwhen()
+Show When
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES61&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES62&gt;%anwhentime()
+When
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES62&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES63&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES63&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES64&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES64&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>InterceptApps InterceptPersistent plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>6bffb1f5-a944-423f-a627-3661fb7780ab</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentNotificationQuery</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigNotificationQuery</Str>
+			<Int sr="arg3" val="20"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>356</code>
+			<label>BG value</label>
+			<Str sr="arg0" ve="3">%antexts</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%GLUCOSE1</Str>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TREND</Str>
+			<Str sr="arg1" ve="3">→</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%DELTA</lhs>
+					<op>7</op>
+					<rhs>-5.1</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DELTA</lhs>
+					<op>6</op>
+					<rhs>5.1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TREND</Str>
+			<Str sr="arg1" ve="3">⬈ </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%DELTA</lhs>
+					<op>7</op>
+					<rhs>5</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DELTA</lhs>
+					<op>6</op>
+					<rhs>10</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TREND</Str>
+			<Str sr="arg1" ve="3">↑</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%DELTA</lhs>
+					<op>7</op>
+					<rhs>10</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DELTA</lhs>
+					<op>6</op>
+					<rhs>15</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TREND</Str>
+			<Str sr="arg1" ve="3">⇈</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DELTA</lhs>
+					<op>7</op>
+					<rhs>15</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<label>+Trend</label>
+			<Str sr="arg0" ve="3">%GLUCOSE</Str>
+			<Str sr="arg1" ve="3"> %TREND</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%GLUCOSEOLD</Str>
+			<Str sr="arg1" ve="3">%GLUCOSE1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<label>aktuelle Zeit</label>
+			<Str sr="arg0" ve="3">%BGTIME</Str>
+			<Str sr="arg1" ve="3">%TIME</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%GLUCOSE</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%GLUCOSE</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%GLUCOSE</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%DELTA</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%DELTA</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%DELTA</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BGTIME</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%BGTIME</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%BGTIME</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>356</code>
+			<label>BG unit</label>
+			<Str sr="arg0" ve="3">%antexts</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">%GLUCOSE2</Str>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>690818506</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>%TREND</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>tasker_var</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<tasker_var>%TREND</tasker_var>
+					<tasker_var-type>java.lang.String</tasker_var-type>
+					<tasker_var_name>%TREND</tasker_var_name>
+					<tasker_var_name-type>java.lang.String</tasker_var_name-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">slide.watchFrenzy</Str>
+			<Str sr="arg2" ve="3">slide.watchFrenzy.TaskerSendVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%GLUCOSE</Str>
+			<Str sr="arg1" ve="3">%GLUCOSE1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<label>Leerzeichen</label>
+			<Str sr="arg0" ve="3">%GLUCOSE</Str>
+			<Str sr="arg1" ve="3"> </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<label>aktuell</label>
+			<Str sr="arg0" ve="3">%DELTA</Str>
+			<Str sr="arg1" ve="3">%GLUCOSE1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>890</code>
+			<label>Delta</label>
+			<Str sr="arg0" ve="3">%DELTA</Str>
+			<Int sr="arg1">
+				<var>%GLUCOSEOLD</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TREND</Str>
+			<Str sr="arg1" ve="3">⇊</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%DELTA</lhs>
+					<op>6</op>
+					<rhs>-15</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TREND</Str>
+			<Str sr="arg1" ve="3">↓</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%DELTA</lhs>
+					<op>6</op>
+					<rhs>-10</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DELTA</lhs>
+					<op>7</op>
+					<rhs>-15</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TREND</Str>
+			<Str sr="arg1" ve="3">⬊</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%DELTA</lhs>
+					<op>6</op>
+					<rhs>-5</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%DELTA</lhs>
+					<op>7</op>
+					<rhs>-10</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+</TaskerData>
